@@ -14,7 +14,7 @@
   
   display: grid;
   grid-template-rows:3fr 4fr;
-  grid-template-columns: 1fr
+  grid-template-columns: 1fr;
 }
 
 /* -----------sidebar------------*/
@@ -23,8 +23,17 @@
   grid-column: 1 / 2;
   
   display: grid;
-  grid-template-rows:2fr repeat(10, 1fr);
-  grid-template-columns: 1fr
+  grid-template-rows: 1.5fr repeat(10, 1fr) 7fr;
+  grid-template-columns: 1fr;
+}
+
+.nav, .branding {
+/*   background-color: blue;
+  color: white; */
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-left: 20px;
 }
 
 /* --------------------main--------------------*/
